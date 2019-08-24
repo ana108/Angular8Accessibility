@@ -1,21 +1,37 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-list-key-special></app-list-key-special>
+<!--<div #trappedFocus tabindex="0" cdkTrapFocus>
+  <ul>
+    <li tabindex="0">Stacy</li>
+    <li tabindex="0">Andrushchak</li>
+    <li tabindex="0">Whole</li>
+    <li tabindex="0" >Foods</li>
+  </ul>
+ </div>
+<div class="users-page">
+  <div class="users-age__main">
+    <h3 class="users-page__main__heading">
+      Users List
+    </h3>
+    <div class="users-page__main__search">
+      <input [(ngModel)]="searchQuery" placeholder="search users by name" (keyup)="handleKeyUp($event)">
+    </div>
+    <div class="users-page__main__list" #element tabindex="0" >
+       <app-list-item #elementChild #elementChild tabindex="0" 
+        *ngFor="let user of users" 
+        class="users-page__main__list__item"
+        [item]="user"
+        (itemSelected)="showUserInfo($event)"
+        [class.active]="user.id===1">
+      </app-list-item> 
+    </div>
+  </div>
+ </div>
 
-<router-outlet></router-outlet>
+ <div tabindex="0">
+  <ul>
+    <li>Yuliya</li>
+    <li>Andrushchak</li>
+    <li>Whole</li>
+    <li>Foods</li>
+  </ul>
+ </div> -->

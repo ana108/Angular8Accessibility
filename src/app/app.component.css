@@ -1,0 +1,18 @@
+.users-page {
+    background-color: blueviolet;
+}
+.users-age__main {
+    background-color: aquamarine;
+}
+.users-page__main__heading {
+    background-color: navy;
+}
+.users-page__main__search {
+    background-color: yellow;
+}
+.users-page__main__list {
+    background-color: grey;
+}
+.users-page__main__list__item {
+    background-color: red;
+}
